@@ -15,11 +15,11 @@ D:/210-Transmedia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51738
+60398
 Successfully changed project path to: D:/210-Transmedia
 D:/210-Transmedia
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,62 +35,58 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001870 seconds.
+Registered in 0.001973 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
+- Completed reload, in  0.952 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003240 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1908 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.8 MB.
-System memory in use after: 98.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2360.
-Total: 2.504600 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.693100 ms  DeleteObjects: 0.555900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Suspense Mystery Dark Mysterious Thriller Music (No Copyright)Tension Investigation Background M.mp3
-  artifactKey: Guid(0febcfc2c76ec9c4fb3f8632fcef6530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suspense Mystery Dark Mysterious Thriller Music (No Copyright)Tension Investigation Background M.mp3 using Guid(0febcfc2c76ec9c4fb3f8632fcef6530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59140f4c424dd4972a2eb22836e17cd') in 0.081836 seconds
-  Import took 0.085162 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003282 seconds.
+Registered in 0.003403 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
+- Completed reload, in  0.962 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1843 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 95.6 MB.
+Unloading 1908 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.1 MB.
+System memory in use after: 100.8 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2372.
-Total: 2.376100 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.676800 ms  DeleteObjects: 0.317500 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 2.190700 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.577000 ms  DeleteObjects: 0.342200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Clipboard/Prefab/Clipboard.prefab
+  artifactKey: Guid(72653085a6b827f48b10b434c7972f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Prefab/Clipboard.prefab using Guid(72653085a6b827f48b10b434c7972f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09903af8aad532db6a76e4aff9ef11b5') in 0.424085 seconds
+  Import took 0.427360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Clipboard
+  artifactKey: Guid(8e95e1ff93846aa48bbb46b7c8bdb3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard using Guid(8e95e1ff93846aa48bbb46b7c8bdb3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96145e829a0b0f2eabd9f5a1a9fa81aa') in 0.002375 seconds
+  Import took 0.021571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Clipboard/Prefab
+  artifactKey: Guid(ba7710e372e34ed4e8e3721f1d73ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Prefab using Guid(ba7710e372e34ed4e8e3721f1d73ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187a80dc78a6315ebe4fe4a7dd945223') in 0.002927 seconds
+  Import took 0.091933 seconds .
 
