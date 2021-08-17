@@ -15,11 +15,11 @@ D:/210-Transmedia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60398
+49860
 Successfully changed project path to: D:/210-Transmedia
 D:/210-Transmedia
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,29 +35,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001973 seconds.
+Registered in 0.001923 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
+- Completed reload, in  0.956 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003403 seconds.
+Registered in 0.003364 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
+- Completed reload, in  0.864 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1908 Unused Serialized files (Serialized files now loaded: 0)
@@ -65,28 +65,224 @@ System memory in use before: 101.1 MB.
 System memory in use after: 100.8 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2360.
-Total: 2.190700 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.577000 ms  DeleteObjects: 0.342200 ms)
+Total: 2.173100 ms (FindLiveObjects: 0.211100 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.553100 ms  DeleteObjects: 0.364800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Clipboard/Prefab/Clipboard.prefab
-  artifactKey: Guid(72653085a6b827f48b10b434c7972f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clipboard/Prefab/Clipboard.prefab using Guid(72653085a6b827f48b10b434c7972f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09903af8aad532db6a76e4aff9ef11b5') in 0.424085 seconds
-  Import took 0.427360 seconds .
+  path: Assets/Clipboard/CIM210 Transmedia Phone call.mp3
+  artifactKey: Guid(393f786f055efd743a8c91abe96ef818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/CIM210 Transmedia Phone call.mp3 using Guid(393f786f055efd743a8c91abe96ef818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09203d42b04b920c638ac9ccb60d6680') in 0.074583 seconds
+  Import took 0.077718 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003607 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 2.035300 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.507600 ms  DeleteObjects: 0.292900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/Clipboard
-  artifactKey: Guid(8e95e1ff93846aa48bbb46b7c8bdb3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clipboard using Guid(8e95e1ff93846aa48bbb46b7c8bdb3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96145e829a0b0f2eabd9f5a1a9fa81aa') in 0.002375 seconds
-  Import took 0.021571 seconds .
+  Time since last request: 210.983306 seconds.
+  path: Assets/Clipboard/AudioTrigger.cs
+  artifactKey: Guid(bd92c0a9c9e7bca44ad0e3b79be718ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/AudioTrigger.cs using Guid(bd92c0a9c9e7bca44ad0e3b79be718ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73ebae944642a858847cd2a8aef13c4') in 0.013962 seconds
+  Import took 0.016847 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2376.
+Total: 2.109300 ms (FindLiveObjects: 0.196300 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.518300 ms  DeleteObjects: 0.354900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Clipboard/Prefab
-  artifactKey: Guid(ba7710e372e34ed4e8e3721f1d73ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clipboard/Prefab using Guid(ba7710e372e34ed4e8e3721f1d73ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187a80dc78a6315ebe4fe4a7dd945223') in 0.002927 seconds
-  Import took 0.091933 seconds .
+  Time since last request: 141.818892 seconds.
+  path: Assets/Clipboard/AudioTrigger.cs
+  artifactKey: Guid(bd92c0a9c9e7bca44ad0e3b79be718ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/AudioTrigger.cs using Guid(bd92c0a9c9e7bca44ad0e3b79be718ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3066b437310573bd69f683c20743865') in 0.004578 seconds
+  Import took 0.007443 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.836 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2379.
+Total: 2.192500 ms (FindLiveObjects: 0.199700 ms CreateObjectMapping: 0.049600 ms MarkObjects: 1.586100 ms  DeleteObjects: 0.356300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.417664 seconds.
+  path: Assets/Clipboard/AudioTrigger.cs
+  artifactKey: Guid(bd92c0a9c9e7bca44ad0e3b79be718ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/AudioTrigger.cs using Guid(bd92c0a9c9e7bca44ad0e3b79be718ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325120e97887e241e9c76cbfcfb97c9c') in 0.004695 seconds
+  Import took 0.007543 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003772 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 2.320200 ms (FindLiveObjects: 0.255400 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.606200 ms  DeleteObjects: 0.411700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 545.002988 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102151.png
+  artifactKey: Guid(3bfc9eb56f0872d4cb56c502cfea10ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102151.png using Guid(3bfc9eb56f0872d4cb56c502cfea10ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a170b7f724e76739366f39c7b3781413') in 0.096693 seconds
+  Import took 0.100483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102338.png
+  artifactKey: Guid(3e77e1d62c352de4282e1b81354fb1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102338.png using Guid(3e77e1d62c352de4282e1b81354fb1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bee896d16d43e0fe20f6df1db7980ed') in 0.007924 seconds
+  Import took 0.052871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102301.png
+  artifactKey: Guid(858a42dab274f5b4bb46f3a575eb1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102301.png using Guid(858a42dab274f5b4bb46f3a575eb1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d1a3397be92ba13b612e6cda3c73e1') in 0.007756 seconds
+  Import took 0.010409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102227.png
+  artifactKey: Guid(47ac27309fe52964ca237f705336e46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102227.png using Guid(47ac27309fe52964ca237f705336e46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58b4a2f504381f78a94fe9de078e19f') in 0.007116 seconds
+  Import took 0.009965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102408.png
+  artifactKey: Guid(e8f5c3bd2dd7f83438672c0f6aefd0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102408.png using Guid(e8f5c3bd2dd7f83438672c0f6aefd0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f55286484a5b2ce801066003a9054c2') in 0.029083 seconds
+  Import took 0.032368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.624686 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102151.png
+  artifactKey: Guid(3bfc9eb56f0872d4cb56c502cfea10ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102151.png using Guid(3bfc9eb56f0872d4cb56c502cfea10ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95717bc87cf522c9e0e306f2493cb3b') in 0.022648 seconds
+  Import took 0.026028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.410318 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102227.png
+  artifactKey: Guid(47ac27309fe52964ca237f705336e46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102227.png using Guid(47ac27309fe52964ca237f705336e46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8ad9f778bfdf5083510a13d6996fca') in 0.009879 seconds
+  Import took 0.013421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.686093 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102301.png
+  artifactKey: Guid(858a42dab274f5b4bb46f3a575eb1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102301.png using Guid(858a42dab274f5b4bb46f3a575eb1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ce3e529e7bdc662cd89d057e6f5461') in 0.011743 seconds
+  Import took 0.014817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000874 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102301.png
+  artifactKey: Guid(858a42dab274f5b4bb46f3a575eb1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102301.png using Guid(858a42dab274f5b4bb46f3a575eb1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ce3e529e7bdc662cd89d057e6f5461') in 0.007978 seconds
+  Import took 0.010812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.519024 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102338.png
+  artifactKey: Guid(3e77e1d62c352de4282e1b81354fb1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102338.png using Guid(3e77e1d62c352de4282e1b81354fb1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a96ececcfee3d6c94e236d760962dc7') in 0.011255 seconds
+  Import took 0.026060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.502628 seconds.
+  path: Assets/Clipboard/Screenshot 2021-08-14 102408.png
+  artifactKey: Guid(e8f5c3bd2dd7f83438672c0f6aefd0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Screenshot 2021-08-14 102408.png using Guid(e8f5c3bd2dd7f83438672c0f6aefd0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664434a52cfd73ecb2e579f533ade682') in 0.011940 seconds
+  Import took 0.014967 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2397.
+Total: 2.845200 ms (FindLiveObjects: 0.250900 ms CreateObjectMapping: 0.044100 ms MarkObjects: 2.127000 ms  DeleteObjects: 0.422300 ms)
 
